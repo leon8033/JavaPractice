@@ -68,9 +68,9 @@ Tetris.prototype={
 			for(var i=0;i<mRowLen;i++){
 				for(var j=0;j<mColLen;j++){
 					if(map[i][j]==1){
-						this.ctx.fillStyle='orange';
+						this.ctx.fillStyle='red';
 					}else{
-						this.ctx.fillStyle='grey';
+						this.ctx.fillStyle='white';
 					}
 					//fillRect(x,y,width,height)
 					this.ctx.fillRect(j*(grid+margin),i*(grid+margin),grid,grid);
